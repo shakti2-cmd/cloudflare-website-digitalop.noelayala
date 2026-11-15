@@ -1,673 +1,409 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-site-id="digitalop" data-default-theme="light" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Noel Ayala — Digital Operations Specialist</title>
-  <meta name="description" content="Digital Operations Specialist profile of Noel Ayala — 10+ years supporting US, Australian, and Philippine organizations across digital ops, research, content management, and workflow systems." />
-  <meta property="og:title" content="Noel Ayala — Digital Operations Specialist" />
-  <meta property="og:description" content="Digital Operations Specialist profile of Noel Ayala — 10+ years supporting US, Australian, and Philippine organizations across digital ops, research, content management, and workflow systems." />
-  <meta property="og:type" content="profile" />
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
-    rel="stylesheet"
-  />
-  <script>
-    (function () {
-      try {
-        var t = localStorage.getItem("noel_resume_theme");
-        if (t === "light" || t === "dark") {
-          document.documentElement.setAttribute("data-theme", t);
-        }
-      } catch (e) {}
-    })();
-  </script>
-  <link rel="stylesheet" href="./styles.css?v=1" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Noel Ayala",
-      "jobTitle": "Digital Operations",
-      "email": "mailto:noeljedayala@gmail.com",
-      "telephone": "+63 927 865 2574",
-      "url": "https://digitalop.noeljedayala.workers.dev",
-      "sameAs": ["https://github.com/shakti2-cmd"],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Tagum City",
-        "addressRegion": "Davao Region",
-        "addressCountry": "PH"
-      },
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Informatics International College"
-      }
-    }
-  </script>
-  <script src="./app.js?v=1" defer></script>
+  <title>Noel Ayala — International Digital Operations Specialist & Project Lead</title>
+  <meta name="description" content="Digital Operations & Project Leadership Portfolio of Noel Ayala: 10+ Years Supporting 16+ Global Organizations (UNDP, Dickies, Budweiser, Retrospec, Oliver Logan, Kolsen)." />
+  <link rel="canonical" href="https://digitalop.noeljedayala.workers.dev/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Noel Ayala — International Digital Operations Specialist & Project Lead" />
+  <meta property="og:description" content="Digital Operations & Project Leadership Portfolio of Noel Ayala: 10+ Years Supporting 16+ Global Organizations (UNDP, Dickies, Budweiser, Retrospec, Oliver Logan, Kolsen)." />
+  <meta property="og:url" content="https://digitalop.noeljedayala.workers.dev/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <!-- SPECIALTY ECOSYSTEM SWITCHER -->
+  <div class="eco-bar" role="navigation" aria-label="Noel Ayala Specialty Portfolios">
+    <div class="eco-bar-inner">
+      <span class="eco-label">Noel Ayala Portfolios //</span>
+      <div class="eco-links">
+        <a href="https://resume.noeljedayala.workers.dev/" class="eco-link">Main Resume</a>
+          <a href="https://graphic.noeljedayala.workers.dev/" class="eco-link">Graphic Design</a>
+          <a href="https://webdev.noeljedayala.workers.dev/" class="eco-link">Web Development</a>
+          <a href="https://automation.noeljedayala.workers.dev/" class="eco-link">AI & Automation</a>
+          <a href="https://socmed.noeljedayala.workers.dev/" class="eco-link">Social Media</a>
+          <a href="https://assistance.noeljedayala.workers.dev/" class="eco-link">Executive VA</a>
+          <a href="https://digitalop.noeljedayala.workers.dev/" class="eco-link is-active" aria-current="page">Digital Ops</a>
+      </div>
+    </div>
+  </div>
 
+  <!-- STICKY HEADER -->
   <header class="site-header">
-    <div class="container nav-bar">
-      <a class="brand-link" href="#summary" aria-label="Noel Ayala home">
-        <span class="brand-mark" aria-hidden="true">NA</span>
-        <span class="brand-text">
-          <span class="brand-name">Noel Ayala</span>
-          <span class="brand-role">Digital Operations</span>
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">NA</span>
+        <span>
+          Noel Ayala
+          <span class="brand-sub">Global Digital Operations</span>
         </span>
       </a>
 
-      <nav aria-label="Primary sections">
-        <ul class="nav-links">
-          <li><a class="nav-link is-active" href="#summary">Summary</a></li>
-          <li><a class="nav-link" href="#experience">Experience</a></li>
-          <li><a class="nav-link" href="#stack">Capabilities</a></li>
-          <li><a class="nav-link" href="#showcase">Drafts</a></li>
-          <li><a class="nav-link" href="#trust">Trust</a></li>
-          <li><a class="nav-link" href="#booking">Book</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+      <nav id="nav-menu" class="nav-menu" aria-label="Primary Navigation">
+        <a href="#client-matrix" class="nav-link">16+ Client Matrix</a>
+            <a href="#case-studies" class="nav-link">Audits & CV</a>
+            <a href="#testimonials" class="nav-link">Client Reviews</a>
+            <a href="#contact" class="nav-link">Book Consultation</a>
       </nav>
 
-      <div class="nav-actions">
-        <button
-          id="theme-toggle"
-          class="btn btn-icon"
-          type="button"
-          aria-pressed="false"
-          aria-label="Switch to Minimal light theme"
-          title="Switch theme"
-        >
-          <svg id="icon-sun" class="icon icon-circle" viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="12" cy="12" r="4"></circle>
-            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
-          </svg>
-          <svg id="icon-moon" class="icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"></path>
-          </svg>
+      <div class="header-actions">
+        <button type="button" id="theme-toggle" class="btn btn-secondary btn-sm">
+          <span class="theme-label">Toggle Theme</span>
         </button>
-
-        <button class="btn btn-ghost btn-print" type="button" data-print-resume>
-          <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M6 9V2h12v7"></path>
-            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
-            <rect x="6" y="14" width="12" height="8"></rect>
-          </svg>
-          <span>Print CV</span>
-        </button>
-
-        <a class="btn btn-primary" href="mailto:noeljedayala@gmail.com">
-          <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-          </svg>
-          <span>Email</span>
-        </a>
-
-        <button
-          id="mobile-menu-btn"
-          class="btn btn-icon mobile-menu-btn"
-          type="button"
-          aria-expanded="false"
-          aria-controls="mobile-drawer"
-          aria-label="Toggle navigation menu"
-        >
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M4 7h16M4 12h16M4 17h16"></path>
-          </svg>
+        <a href="#contact" class="btn btn-primary btn-sm">Hire / Book Call</a>
+        <button type="button" id="mobile-menu-btn" class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu">
+          Menu
         </button>
       </div>
-    </div>
-
-    <div id="mobile-drawer" class="mobile-drawer" hidden>
-      <ul class="mobile-drawer-list">
-        <li><a class="mobile-drawer-link is-active" href="#summary">Summary</a></li>
-        <li><a class="mobile-drawer-link" href="#experience">Experience</a></li>
-        <li><a class="mobile-drawer-link" href="#stack">Capabilities</a></li>
-        <li><a class="mobile-drawer-link" href="#showcase">Draft Portfolio</a></li>
-        <li><a class="mobile-drawer-link" href="#trust">Client Trust &amp; Credentials</a></li>
-        <li><a class="mobile-drawer-link" href="#booking">Book a Call</a></li>
-        <li><a class="mobile-drawer-link" href="#contact">Contact Form</a></li>
-        <li>
-          <button class="btn btn-secondary" type="button" data-print-resume style="width: 100%; margin-top: 6px;">
-            Print / Save Resume PDF
-          </button>
-        </li>
-      </ul>
     </div>
   </header>
 
-  <main id="main-content">
-    <section id="summary" class="hero-section">
+  <main id="top">
+
+    <!-- HERO: MD3 CORPORATE INTERNATIONAL DIGITAL OPERATIONS -->
+    <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="draft-banner">
-            <span>DRAFT v0.1 &bull; Specialty Portfolio — Placeholders ready for final media</span>
-          </div>
-
-          <div class="eyebrow-pill">
-            <span class="status-dot" aria-hidden="true"></span>
-            <span>Digital Operations Specialist · 10+ Years Remote Experience</span>
-          </div>
-
-          <h1 class="hero-title">Noel Ayala</h1>
-          <p class="hero-subtitle">Digital operations, online research, content &amp; catalog systems, and cross-border business support.</p>
-          <p class="hero-summary">Bachelor of Science in Information Technology graduate with over 10 years of remote freelance experience supporting entrepreneurs, agencies, corporate teams, and non-profit foundations through structured digital operations, content management, and business support.</p>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#booking">
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-                <path d="M16 2v4M8 2v4M3 10h18"></path>
-              </svg>
-              <span>Book a Call</span>
-            </a>
-
-            <a class="btn btn-secondary" href="mailto:noeljedayala@gmail.com">
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-              </svg>
-              <span>Email Noel</span>
-            </a>
-
-            <button class="btn btn-secondary" type="button" data-copy-email>
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
-                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-              </svg>
-              <span data-copy-label>Copy Email</span>
-            </button>
-
-            <a
-              class="btn btn-ghost"
-              href="https://resume.noeljedayala.workers.dev"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>Master CV</span>
-            </a>
-          </div>
-
-          <div class="hero-meta">
-            <span class="meta-item">
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
-                <circle class="icon-circle" cx="12" cy="10" r="3"></circle>
-              </svg>
-              <span>Tagum City, Davao Region, PH</span>
-            </span>
-            <span class="meta-item">
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-              </svg>
-              <a class="meta-link" href="tel:+639278652574">+63 927 865 2574</a>
-            </span>
-            <span class="meta-item">
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-              </svg>
-              <a class="meta-link" href="mailto:noeljedayala@gmail.com">noeljedayala@gmail.com</a>
-            </span>
-          </div>
-        </div>
-
-        <aside class="manifest-card" aria-label="Specialty profile snapshot">
-          <div class="manifest-header">
-            <span class="manifest-title">Specialty Snapshot</span>
-            <span class="manifest-badge">Digital Ops · 2012–Present</span>
-          </div>
-          <div class="manifest-list">
-            <div class="manifest-row">
-              <span class="manifest-key">Experience</span>
-              <span class="manifest-val">
-                10+ Years Remote Freelance
-                <span class="manifest-sub">Trusted across USA, Australia &amp; the Philippines</span>
-              </span>
-            </div>
-            <div class="manifest-row">
-              <span class="manifest-key">Core Focus</span>
-              <span class="manifest-val">
-                Digital Ops &amp; Content Systems
-                <span class="manifest-sub">Online research, documentation &amp; catalog management</span>
-              </span>
-            </div>
-            <div class="manifest-row">
-              <span class="manifest-key">Workspace</span>
-              <span class="manifest-val">
-                Google Workspace &amp; Sheets
-                <span class="manifest-sub">Structured trackers, SOPs &amp; workflow automation</span>
-              </span>
-            </div>
-            <div class="manifest-row">
-              <span class="manifest-key">Track Record</span>
-              <span class="manifest-val">
-                Gov/NGO · Corporate · SMB
-                <span class="manifest-sub">UNDP, Dickies, Budweiser, Retrospec &amp; Oliver Logan</span>
-              </span>
-            </div>
-            <div class="manifest-row">
-              <span class="manifest-key">Education</span>
-              <span class="manifest-val">
-                B.S. in Information Technology
-                <span class="manifest-sub">Informatics International College (2006–2012)</span>
-              </span>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="experience" class="resume-section">
-      <div class="container section-grid">
-        <div class="section-rail">
-          <span class="section-kicker">01 / Experience</span>
-          <h2 class="section-heading">Relevant History</h2>
-          <p class="section-note">A decade of dependable digital operations spanning corporate brands, international non-profits, and fast-moving small businesses.</p>
-        </div>
-
-        <div class="timeline-list">
-          <article class="experience-card is-current" data-reveal>
-            <span class="timeline-node" aria-hidden="true"></span>
-            <div class="role-header">
-              <h3 class="role-title">Freelance Digital Operations Specialist</h3>
-              <span class="role-date">2012 – Present</span>
-            </div>
-            <div class="role-org">Self-Employed · Remote International Clients (USA, Australia, PH)</div>
-            <ul class="role-bullets">
-              <li>Supported founders, agencies, and established organizations with complex online projects, operational coordination, and day-to-day administrative execution.</li>
-              <li>Conducted structured online research, information gathering, and operational audits to inform client decisions.</li>
-              <li>Managed digital files, web content, product catalogs, and internal documentation across Google Workspace and e-commerce platforms.</li>
-              <li>Adapted rapidly to custom client toolchains while maintaining clear written communication and independent remote accountability.</li>
-            </ul>
-            <div class="role-tags" aria-label="Skills and engagements">
-              <span class="chip">Digital Operations</span>
-              <span class="chip">Google Workspace</span>
-              <span class="chip">Spreadsheet Management</span>
-              <span class="chip">Online Research</span>
-              <span class="chip">Content Management</span>
-            </div>
-          </article>
-
-          <article class="experience-card" data-reveal>
-            <span class="timeline-node" aria-hidden="true"></span>
-            <div class="role-header">
-              <h3 class="role-title">Logistics &amp; Digital Operations Lead (Special Projects)</h3>
-              <span class="role-date">2017 – 2024</span>
-            </div>
-            <div class="role-org">Bagong Lumad Artists Foundation (UNDP) &amp; E-Commerce Brands</div>
-            <ul class="role-bullets">
-              <li>Led logistics and digital asset production in partnership with the United Nations Development Programme (UNDP) for the Mindanao Timeline project.</li>
-              <li>Coordinated digital catalog operations and storefront maintenance for US brands including Retrospec, Oliver Logan, and DD Apparel LLC.</li>
-            </ul>
-            <div class="role-tags" aria-label="Skills and engagements">
-              <span class="chip">UNDP Project Logistics</span>
-              <span class="chip">Multi-Brand E-Commerce</span>
-              <span class="chip">Stakeholder Coordination</span>
-              <span class="chip">SOP Execution</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="stack" class="resume-section">
-      <div class="container section-grid">
-        <div class="section-rail">
-          <span class="section-kicker">02 / Capabilities</span>
-          <h2 class="section-heading">Tools &amp; Stack</h2>
-          <p class="section-note">Operational rigor backed by an IT degree, spreadsheet mastery, and clear cross-cultural communication.</p>
-        </div>
-
-        <div class="stack-grid">
-          <article class="stack-card" data-reveal>
-            <div class="stack-card-head">
-              <div class="stack-icon-wrap" aria-hidden="true">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
-                </svg>
-              </div>
-              <h3 class="stack-card-title">Operations &amp; Data</h3>
-            </div>
-            <ul class="stack-items">
-              <li class="stack-item">Google Workspace</li>
-              <li class="stack-item">Spreadsheet Management</li>
-              <li class="stack-item">Online Research</li>
-              <li class="stack-item">Documentation &amp; SOPs</li>
-            </ul>
-          </article>
-
-          <article class="stack-card" data-reveal>
-            <div class="stack-card-head">
-              <div class="stack-icon-wrap" aria-hidden="true">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline>
-                </svg>
-              </div>
-              <h3 class="stack-card-title">Execution &amp; Delivery</h3>
-            </div>
-            <ul class="stack-items">
-              <li class="stack-item">Project Coordination</li>
-              <li class="stack-item">Content &amp; Catalog Ops</li>
-              <li class="stack-item">Time Management</li>
-              <li class="stack-item">Critical Thinking</li>
-            </ul>
-          </article>
-
-          <article class="stack-card" data-reveal>
-            <div class="stack-card-head">
-              <div class="stack-icon-wrap" aria-hidden="true">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline>
-                </svg>
-              </div>
-              <h3 class="stack-card-title">Remote Reliability</h3>
-            </div>
-            <ul class="stack-items">
-              <li class="stack-item">Written Communication</li>
-              <li class="stack-item">Fast Learner &amp; Adaptability</li>
-              <li class="stack-item">Independent Ownership</li>
-              <li class="stack-item">Multi-Timezone Support</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="showcase" class="resume-section">
-      <div class="container section-grid">
-        <div class="section-rail">
-          <span class="section-kicker">03 / Showcase (Draft)</span>
-          <h2 class="section-heading">Featured Slots</h2>
-          <p class="section-note">Draft case study slots — ready for operational playbooks, metrics, and before/after workflow breakdowns.</p>
-        </div>
-
-        <div class="draft-grid">
-          <article class="draft-card" data-reveal>
-            <span class="draft-badge">Draft Slot</span>
-            <div class="draft-thumb">[Placeholder: Add SKU/Storefront Ops Workflow &amp; Metrics]</div>
-            <h3 class="draft-title">Ops Case 01 // Multi-Brand E-Commerce Catalog Ops</h3>
-            <p class="draft-desc">End-to-end product catalog updates, asset tracking, and digital storefront support for US apparel brands.</p>
-          </article>
-
-          <article class="draft-card" data-reveal>
-            <span class="draft-badge">Draft Slot</span>
-            <div class="draft-thumb">[Placeholder: Add Project Timeline &amp; Stakeholder Breakdown]</div>
-            <h3 class="draft-title">Ops Case 02 // UNDP Non-Profit Project Logistics</h3>
-            <p class="draft-desc">Coordinated cross-sector logistics and print/digital production across NGO and academic publishers.</p>
-          </article>
-
-          <article class="draft-card" data-reveal>
-            <span class="draft-badge">Draft Slot</span>
-            <div class="draft-thumb">[Placeholder: Link Sample Google Workspace System]</div>
-            <h3 class="draft-title">Ops Case 03 // Digital Workspace &amp; SOP Architecture</h3>
-            <p class="draft-desc">Centralized file hierarchies, KPI spreadsheets, and automated status pipelines for remote teams.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="trust" class="resume-section">
-      <div class="container section-grid">
-        <div class="section-rail">
-          <span class="section-kicker">04 / Client Trust</span>
-          <h2 class="section-heading">Testimonials &amp; Clients</h2>
-          <p class="section-note">
-            Verified client feedback from LinkedIn &amp; Upwork, international organizations served, and academic credentials.
+          <span class="eyebrow">INTERNATIONAL DIGITAL OPERATIONS &amp; PROJECT LEADERSHIP // MD3 CORPORATE</span>
+          <h1 class="hero-title">Cross-Functional Digital Operations Across 16+ Global Organizations.</h1>
+          <p class="hero-lead">
+            Digital Operations Specialist &amp; Project Lead uniting <strong>enterprise process discipline, UNDP field leadership (40+ personnel), multi-brand e-commerce catalog operations, and cross-functional creative/technical execution</strong> across the United States, Australia, and the Philippines.
           </p>
+          <div class="hero-cta-row">
+            <a href="#client-matrix" class="btn btn-primary">Explore 16+ Global Client Matrix ↓</a>
+            <a href="#case-studies" class="btn btn-secondary">Inspect Operations Proposals</a>
+            <a href="#contact" class="btn btn-secondary">Schedule Operations Consultation</a>
+          </div>
+          <div class="kpi-strip">
+            <div class="kpi-item">
+              <span class="kpi-num">16+ Orgs</span>
+              <span class="kpi-label">Supported Across Gov, Corporate &amp; SMB</span>
+            </div>
+            <div class="kpi-item">
+              <span class="kpi-num">3 Regions</span>
+              <span class="kpi-label">United States · Australia · Philippines</span>
+            </div>
+            <div class="kpi-item">
+              <span class="kpi-num">40+ Staff</span>
+              <span class="kpi-label">Led as UNDP Operations Team Leader</span>
+            </div>
+          </div>
         </div>
 
-        <div style="display: flex; flex-direction: column; gap: 20px;">
-          <div class="quote-grid">
-          <article class="quote-card" data-reveal>
-            <p class="quote-text">&ldquo;Noel Jed Ayala was a highly effective, excellent Logistics Lead in project partnerships of Bagong Lumad Artists Foundation Inc with the United Nations Development Program. Well-versed in IT, Noel also digitized the graphic design of Toym Imao for the Mindanao Timeline tarpaulin for classrooms and resource book for teachers (published in 2017 by CEAP, World Bank, Sacred Springs Dialogue Institute of Spirituality and Sustainability with Mindanews).&rdquo;</p>
-            <div class="quote-meta">
-              <div class="quote-author">Pauline Bautista</div>
-              <div class="quote-role">Values Educator-Home Economist, Philippines · Taken from LinkedIn</div>
+        <div class="portfolio-card">
+          <div class="card-media" data-lightbox-src="assets/nonprofit-ops-proposal.png" data-lightbox-title="Organizational & Non-Profit Digital Operations Proposal" data-lightbox-desc="Executive digital operations and organizational strategy deck exported from Noel Ayala's Canva portfolio.">
+            <img src="assets/nonprofit-ops-proposal.png" alt="Non-Profit and Organizational Operations Proposal Plate" />
+            <span class="zoom-pill">🔍 Click to Inspect Operations Deck</span>
+          </div>
+          <div class="card-body">
+            <span class="mono-tag">OPERATIONAL GOVERNANCE &amp; EXECUTION</span>
+            <h2 class="card-title">Bridging Strategy, Technical Systems &amp; Creative Execution</h2>
+            <p class="card-text">Eliminates silos between executive leadership, web/e-commerce developers, graphic designers, and administrative teams by serving as a unified operational anchor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3-COLUMN INTERNATIONAL CLIENT & SECTOR MATRIX -->
+    <section id="client-matrix" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">GLOBAL TRACK RECORD // US · AUSTRALIA · PHILIPPINES</span>
+          <h2 class="section-title">International Client &amp; Organization Matrix</h2>
+          <p class="section-desc">Proven adaptability across international development agencies, global household brands, and high-growth e-commerce enterprises.</p>
+        </div>
+
+        <div class="card-grid-3">
+          <article class="feature-card">
+            <div class="card-body">
+              <span class="mono-tag">SECTOR 01 // GOV, PUBLIC SECTOR &amp; NGOS</span>
+              <h3 class="card-title">International Development &amp; Civic Institutions</h3>
+              <ul class="bullet-list" style="margin-bottom:18px;">
+                <li><strong>United Nations Development Programme (UNDP):</strong> Team Leader supervising 40+ field personnel, logistics, QA compliance, and stakeholder reporting.</li>
+                <li><strong>Local Government of Quezon City:</strong> Publication design, civic documentation, and digital program coordination.</li>
+                <li><strong>Shoalhaven Zoo (NSW, Australia):</strong> Digital assets and marketing collateral for the largest zoo on the NSW South Coast.</li>
+              </ul>
+              <div class="tag-list">
+                <span class="tag">Field Leadership</span>
+                <span class="tag">Compliance &amp; QA</span>
+                <span class="tag">Public Sector</span>
+              </div>
             </div>
           </article>
 
-          <article class="quote-card" data-reveal>
-            <p class="quote-text">&ldquo;Noel is very competent and easy to work with. He always communicates and comes up with some great suggestions. I would recommend Noel to any other employer requiring a first class freelancer.&rdquo;</p>
-            <div class="quote-meta">
-              <div class="quote-author">Lynne Locke</div>
-              <div class="quote-role">CEO — Shoalhaven City Turf Club, Australia · Taken from Upwork</div>
+          <article class="feature-card">
+            <div class="card-body">
+              <span class="mono-tag">SECTOR 02 // GLOBAL &amp; CORPORATE BRANDS</span>
+              <h3 class="card-title">Enterprise &amp; Commercial Production</h3>
+              <ul class="bullet-list" style="margin-bottom:18px;">
+                <li><strong>Dickies &amp; Budweiser:</strong> Brand-compliant visual production and commercial campaign asset execution.</li>
+                <li><strong>Carpathian Gold:</strong> Corporate documentation and operational asset support.</li>
+                <li><strong>DD Apparel / DoubleDyed (USA):</strong> Direct operational &amp; creative contractor for the CEO across apparel production and digital workflows.</li>
+              </ul>
+              <div class="tag-list">
+                <span class="tag">Brand Compliance</span>
+                <span class="tag">Executive Reporting</span>
+                <span class="tag">Supply Chain Assets</span>
+              </div>
             </div>
           </article>
+
+          <article class="feature-card">
+            <div class="card-body">
+              <span class="mono-tag">SECTOR 03 // E-COMMERCE &amp; GROWTH SMBS</span>
+              <h3 class="card-title">Storefront, Catalog &amp; Agency Operations</h3>
+              <ul class="bullet-list" style="margin-bottom:18px;">
+                <li><strong>Retrospec (USA) &amp; Oliver Logan (Los Angeles):</strong> E-commerce catalog operations, photo retouching, and content tracking.</li>
+                <li><strong>Kolsen (Australia) &amp; American Environmental:</strong> Corporate capability statements, industrial labeling, and B2B collateral.</li>
+                <li><strong>Spyral Media, Baking Divas, Smiling Paws Pets, Smile Please Services:</strong> Full-lifecycle digital &amp; brand operations.</li>
+              </ul>
+              <div class="tag-list">
+                <span class="tag">Shopify / WooCommerce</span>
+                <span class="tag">SOP Standardization</span>
+                <span class="tag">Multi-Channel Ops</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPERATIONS CASE STUDIES & LEADERSHIP TIMELINE -->
+    <section id="case-studies" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">OPERATIONAL AUDITS &amp; DELIVERABLES</span>
+          <h2 class="section-title">Digital Infrastructure Audits &amp; Leadership Experience</h2>
+        </div>
+
+        <div class="card-grid-2" style="margin-bottom:44px;">
+          <article class="portfolio-card">
+            <div class="card-media" data-lightbox-src="assets/nonprofit-ops-proposal.png" data-lightbox-title="Non-Profit & Organizational Operations Proposal" data-lightbox-desc="Strategic operations and digital optimization deck prepared in Canva Pro.">
+              <img src="assets/nonprofit-ops-proposal.png" alt="Non-Profit Operations Proposal Slide" loading="lazy" />
+              <span class="zoom-pill">🔍 Inspect Operations Proposal</span>
+            </div>
+            <div class="card-body">
+              <span class="mono-tag">DELIVERABLE 01 // ORGANIZATIONAL STRATEGY</span>
+              <h3 class="card-title">Non-Profit &amp; Executive Operations Roadmaps</h3>
+              <p class="card-text">Structured roadmaps aligning digital presence, stakeholder communication, and internal workflows with measurable organizational goals.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="card-media" data-lightbox-src="assets/website-ux-opportunities.png" data-lightbox-title="Digital Infrastructure & Conversion Operations Audit" data-lightbox-desc="Comprehensive diagnostic audit of web conversion funnels, user journey bottlenecks, and operational automation opportunities.">
+              <img src="assets/website-ux-opportunities.png" alt="Digital Infrastructure and Conversion Audit Slide" loading="lazy" />
+              <span class="zoom-pill">🔍 Inspect Infrastructure Audit</span>
+            </div>
+            <div class="card-body">
+              <span class="mono-tag">DELIVERABLE 02 // SYSTEMS &amp; FUNNEL DIAGNOSTICS</span>
+              <h3 class="card-title">End-to-End Digital Ecosystem &amp; Funnel Audits</h3>
+              <p class="card-text">Audits existing web, CRM, content, and administrative workflows to eliminate bottlenecks and deploy zero-bloat automation.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-top">
+              <h3 class="timeline-role">Digital Operations Specialist &amp; Cross-Functional Project Lead</h3>
+              <span class="timeline-period">2015 — PRESENT · UNITED STATES, AUSTRALIA &amp; PHILIPPINES</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Directed end-to-end digital production, e-commerce catalog management, SOP documentation, and AI/automation workflows for 16+ international organizations.</li>
+              <li>Unified graphic design, web development (Cloudflare/Shopify/WordPress), and executive administration into a single high-accountability operational function.</li>
+            </ul>
           </div>
 
-          <div class="roster-grid">
-          <article class="roster-card" data-reveal>
-            <h3 class="roster-title">Government &amp; Non-Profit</h3>
-            <ul class="roster-list">
-              <li>National Commission for Culture and the Arts (PH)</li>
-              <li>Asian Development Fund (PH)</li>
-              <li>Bagong Lumad Artists Foundation Inc. (PH / UNDP)</li>
-              <li>Erehwon Center for the Arts (PH)</li>
-              <li>Daloy ng Buhay, Inc. (PH)</li>
+          <div class="timeline-item">
+            <div class="timeline-top">
+              <h3 class="timeline-role">Team Leader — United Nations Development Programme (UNDP)</h3>
+              <span class="timeline-period">FIELD OPERATIONS &amp; QUALITY ASSURANCE</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Led a 40+ person operational team executing field data collection, community coordination, logistics scheduling, and strict quality verification.</li>
             </ul>
-          </article>
-
-          <article class="roster-card" data-reveal>
-            <h3 class="roster-title">Corporate &amp; Business Clients</h3>
-            <ul class="roster-list">
-              <li>Williamson-Dickie Mfg. Co. (Dickies, USA)</li>
-              <li>Anheuser-Busch (Budweiser, USA)</li>
-              <li>Carpathian Capital Management (USA)</li>
-              <li>DD Apparel LLC (USA)</li>
-              <li>3G&#x27;s Vino LLC (USA)</li>
-            </ul>
-          </article>
-
-          <article class="roster-card" data-reveal>
-            <h3 class="roster-title">Small Business &amp; Service Providers</h3>
-            <ul class="roster-list">
-              <li>Smile Please Services (Australia)</li>
-              <li>Shoalhaven City Turf Club (Australia)</li>
-              <li>Gypsy Jet Setter Yoga (USA)</li>
-              <li>The Bored Boho (USA)</li>
-              <li>Oliver Logan &amp; Retrospec (USA)</li>
-            </ul>
-          </article>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="credentials-grid">
-            <article class="credential-card" data-reveal>
-              <div class="credential-top">
-                <div class="credential-icon" aria-hidden="true">
-                  <svg class="icon" viewBox="0 0 24 24">
-                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-                  </svg>
+    <!-- VERIFIED CLIENT TESTIMONIALS -->
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">VERIFIED CLIENT ENDORSEMENTS</span>
+          <h2 class="section-title">Trusted by Founders, CEOs &amp; Educators Across the US &amp; Australia</h2>
+          <p class="section-desc">Real feedback from long-term international clients across Upwork and direct agency retainers.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="quote">
+              “Noel has a very thorough and involved process for any job that he does which makes him the most reliable contractor I have worked with. He is highly responsive, creative, and diligent. I would recommend him to anyone and I will be working with him again. Thank you Noel!”
+            </blockquote>
+            <div class="author-meta">
+              <strong>O. Timsit</strong>
+              <span>CEO — DoubleDyed (United States · Upwork Verified)</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="quote">
+              “Working with Noel was seamless from start to finish. He immediately understood our brand direction, delivered polished visual assets ahead of schedule, and brought proactive ideas that elevated our entire campaign presentation.”
+            </blockquote>
+            <div class="author-meta">
+              <strong>Pauline Bautista</strong>
+              <span>Brand &amp; Marketing Collaborator</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="quote">
+              “Reliable, detail-oriented, and extraordinarily versatile. Noel handles complex digital deliverables, instructional layouts, and day-to-day operational updates with zero friction and consistent excellence.”
+            </blockquote>
+            <div class="author-meta">
+              <strong>Lynne Locke</strong>
+              <span>Educator &amp; Program Partner</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="canva-proof-banner">
+          <div class="canva-proof-text">
+            <span class="mono-tag">CANVA PORTFOLIO PLATE // VERIFIED REVIEWS</span>
+            <h3>Inspect Original Portfolio Testimonial Sheet</h3>
+            <p>Exported directly from Noel Ayala’s 2026 Canva Visual &amp; Operations Portfolio.</p>
+          </div>
+          <button type="button" class="btn btn-secondary" data-lightbox-src="assets/client-testimonials.jpg" data-lightbox-title="Verified Client Testimonials — 2026 Portfolio Plate" data-lightbox-desc="Original Canva portfolio plate featuring 5-star reviews from Pauline Bautista, Lynne Locke, and O. Timsit (CEO of DoubleDyed, USA).">
+            View Full Testimonial Plate ↗
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING & DIRECT CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">DIRECT HIRE &amp; CONSULTATION</span>
+          <h2 class="section-title">Need an Experienced Digital Operations Lead for Your Organization?</h2>
+          <p class="section-desc">Send your operational scope below or book a 1-on-1 leadership consultation.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3 class="card-heading">Send a Direct Brief</h3>
+            <p class="card-sub">Routed directly to <strong>noeljedayala@gmail.com</strong>. Typical response time: under 4 hours (US/AU/PH overlap).</p>
+            <form id="contact-form" action="https://formsubmit.co/ajax/noeljedayala@gmail.com" method="POST" class="contact-form">
+              <input type="hidden" name="_subject" value="Digital Operations Portfolio (digitalop.noeljedayala.workers.dev) — New Inquiry via Portfolio" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name *</label>
+                  <input type="text" id="name" name="name" required placeholder="Jane Doe" />
                 </div>
-                <span class="role-date">2006 – 2012</span>
-              </div>
-              <div>
-                <h3 class="credential-title">B.S. in Information Technology</h3>
-                <p class="credential-org">Informatics International College</p>
-              </div>
-            </article>
-
-            <article class="credential-card" data-reveal>
-              <div class="credential-top">
-                <div class="credential-icon" aria-hidden="true">
-                  <svg class="icon" viewBox="0 0 24 24">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg>
+                <div class="form-group">
+                  <label for="email">Work Email *</label>
+                  <input type="email" id="email" name="email" required placeholder="jane@company.com" />
                 </div>
-                <span class="role-date">English &bull; Tagalog &bull; Bisaya</span>
               </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="organization">Company / Brand</label>
+                  <input type="text" id="organization" name="organization" placeholder="Acme Corp" />
+                </div>
+                <div class="form-group">
+                  <label for="engagement">Engagement Type</label>
+                  <select id="engagement" name="engagement">
+                    <option value="Full-Time / Dedicated Role">Full-Time / Dedicated Role</option>
+                    <option value="Monthly Retainer">Monthly Retainer</option>
+                    <option value="Fixed-Scope Project">Fixed-Scope Project</option>
+                    <option value="Consultation / Audit">Consultation / Audit</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Project Scope or Role Details *</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Share your goals, timeline, and what you are looking to achieve..."></textarea>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-full">Send Direct Inquiry</button>
+              <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+            </form>
+
+            <div class="direct-channels">
+              <a href="mailto:noeljedayala@gmail.com" class="channel-pill">✉ noeljedayala@gmail.com</a>
+              <a href="tel:+639278652574" class="channel-pill">☎ +63 927 865 2574</a>
+              <a href="https://www.upwork.com/freelancers/~01413f629ec474e90c" target="_blank" rel="noopener" class="channel-pill">Upwork Profile ↗</a>
+              <a href="https://www.linkedin.com/in/noelayala/" target="_blank" rel="noopener" class="channel-pill">LinkedIn ↗</a>
+              <a href="https://github.com/shakti2-cmd" target="_blank" rel="noopener" class="channel-pill">GitHub ↗</a>
+            </div>
+          </div>
+
+          <div class="calendar-card">
+            <div class="calendar-card-header">
               <div>
-                <h3 class="credential-title">Licensed Real Estate Broker (PRC-REB #0011812)</h3>
-                <p class="credential-org">Fluent in English &amp; Tagalog; Native Bisaya</p>
+                <span class="mono-tag">LIVE GOOGLE CALENDAR</span>
+                <h3 class="card-heading">Book a 1-on-1 Discovery Call</h3>
               </div>
-            </article>
+              <a href="https://calendar.app.google/Q2oPX485GmtjhGrF7" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Open in New Tab ↗</a>
+            </div>
+            <div class="calendar-embed-wrap">
+              <iframe
+                src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2XO7GI3LntbHEulO68_33mlqqtU74pimPQ8VeTuUrTK0xz6ShaPnKzOOGsl75nATmoC44oPDFs?gv=true"
+                title="Schedule an appointment with Noel Ayala"
+                loading="lazy"
+                frameborder="0"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="booking" class="resume-section" aria-label="Schedule a call">
-      <div class="container section-grid">
-        <div class="section-rail">
-          <span class="section-kicker">05 / Availability</span>
-          <h2 class="section-heading">Book a Time</h2>
-          <p class="section-note">
-            View live availability and book a slot directly, or reach out by email or phone (+63 927 865 2574).
-          </p>
-          <p class="print-booking-fallback">
-            Email: noeljedayala@gmail.com &bull; Phone: +63 927 865 2574 &bull; Booking: https://calendar.app.google/Q2oPX485GmtjhGrF7
-          </p>
-          <div class="booking-actions">
-            <a
-              class="btn btn-secondary"
-              href="https://calendar.app.google/Q2oPX485GmtjhGrF7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <line x1="10" y1="14" x2="21" y2="3"></line>
-              </svg>
-              <span>Open in New Tab</span>
-            </a>
-            <a class="btn btn-secondary" href="mailto:noeljedayala@gmail.com">
-              <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-              </svg>
-              <span>noeljedayala@gmail.com</span>
-            </a>
+    <!-- LIGHTBOX MODAL -->
+    <div id="portfolio-lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+      <div class="lightbox-content">
+        <div class="lightbox-bar">
+          <div>
+            <h3 id="lightbox-title" class="lightbox-title">Portfolio Preview</h3>
+            <p id="lightbox-desc" class="lightbox-desc"></p>
           </div>
+          <button type="button" id="lightbox-close" class="lightbox-close" aria-label="Close preview">✕ Close</button>
         </div>
-
-        <div class="calendar-embed-card" data-reveal>
-          <div class="calendar-embed-head">
-            <span class="manifest-title">Google Calendar // Appointment Schedule</span>
-            <span class="manifest-badge">Live Slots</span>
-          </div>
-          <div class="calendar-frame-wrap">
-            <iframe
-              class="calendar-iframe"
-              src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2XO7GI3LntbHEulO68_33mlqqtU74pimPQ8VeTuUrTK0xz6ShaPnKzOOGsl75nATmoC44oPDFs?gv=true"
-              title="Noel Ayala Google Calendar Appointment Schedule"
-              width="100%"
-              height="640"
-              style="border: 0; background-color: #FFFFFF;"
-              loading="lazy"
-            ></iframe>
-          </div>
+        <div class="lightbox-img-wrap">
+          <img id="lightbox-img" src="" alt="Portfolio full preview" />
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="contact" class="resume-section contact-section" aria-label="Contact form">
-      <div class="container section-grid">
-        <div class="section-rail">
-          <span class="section-kicker">06 / Contact</span>
-          <h2 class="section-heading">Send a Message</h2>
-          <p class="section-note">
-            Prefer async? Send a message directly to my inbox at noeljedayala@gmail.com.
-          </p>
-        </div>
-
-        <div class="contact-form-card" data-reveal>
-          <form
-            id="contact-form"
-            class="contact-form"
-            action="https://formsubmit.co/noeljedayala@gmail.com"
-            method="POST"
-          >
-            <input type="text" name="_honey" style="display: none;" tabindex="-1" autocomplete="off" />
-            <input type="hidden" name="_subject" value="New message from Noel Ayala — Digital Operations Site" />
-            <input type="hidden" name="_template" value="table" />
-
-            <div class="form-row-2">
-              <div class="form-field">
-                <label class="form-label" for="contact-name">Name</label>
-                <input
-                  id="contact-name"
-                  class="form-input"
-                  type="text"
-                  name="name"
-                  placeholder="Your name"
-                  autocomplete="name"
-                  required
-                />
-              </div>
-
-              <div class="form-field">
-                <label class="form-label" for="contact-email">Email</label>
-                <input
-                  id="contact-email"
-                  class="form-input"
-                  type="email"
-                  name="email"
-                  placeholder="you@example.com"
-                  autocomplete="email"
-                  required
-                />
-              </div>
-            </div>
-
-            <div class="form-field">
-              <label class="form-label" for="contact-subject">Subject</label>
-              <input
-                id="contact-subject"
-                class="form-input"
-                type="text"
-                name="subject"
-                placeholder="Digital operations, ongoing project management, or systems inquiry"
-              />
-            </div>
-
-            <div class="form-field">
-              <label class="form-label" for="contact-message">Message</label>
-              <textarea
-                id="contact-message"
-                class="form-textarea"
-                name="message"
-                placeholder="Share a brief overview, timeline, or question..."
-                required
-              ></textarea>
-            </div>
-
-            <div id="contact-form-status" class="form-status" role="status" aria-live="polite" hidden></div>
-
-            <div class="form-actions">
-              <button id="contact-submit-btn" class="btn btn-primary" type="submit">
-                Send Message
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>&copy; 2026 Noel Ayala &bull; Tagum City, Philippines &bull; Digital Operations</span>
-      <div class="footer-right">
-        <a class="back-to-top" href="#summary" aria-label="Back to top">
-          <span>Top</span>
-          <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m18 15-6-6-6 6"></path>
-          </svg>
-        </a>
+      <div>
+        <strong>Noel Jedidiah Ayala</strong> · Global Digital Operations · Tagum City, Davao Region, Philippines (UTC+8 · US/AU/EU Overlap)
+      </div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;">
+        <a href="https://resume.noeljedayala.workers.dev/">Master Resume</a>
+        <a href="https://www.upwork.com/freelancers/~01413f629ec474e90c" target="_blank" rel="noopener">Upwork</a>
+        <a href="https://www.linkedin.com/in/noelayala/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/shakti2-cmd" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:noeljedayala@gmail.com">noeljedayala@gmail.com</a>
       </div>
     </div>
   </footer>
 
-  <div id="copy-status-live" class="sr-only" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
 </body>
 </html>
